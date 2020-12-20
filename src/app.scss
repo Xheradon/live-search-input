@@ -1,0 +1,43 @@
+@tailwind base;
+
+.live-search__input {
+  @apply relative border-gray-200 text-gray-500 border-2 rounded z-10;
+  &:focus-within {
+    @apply border-yellow-500 text-yellow-500;
+    @apply bg-white !important;
+  }
+
+  &:hover {
+    @apply bg-gray-100;
+    input {
+      @apply bg-gray-100;
+    }
+  }
+
+  input {
+    @apply w-11/12 py-2 px-3 text-gray-500 text-sm;
+
+    &:hover {
+      @apply bg-gray-100;
+    }
+
+    &:focus {
+      @apply bg-white outline-none border-transparent;
+    }
+
+    &::placeholder {
+      color: currentColor;
+    }
+  }
+
+  .live-search__input__icon {
+    @apply absolute right-0 top-0 mt-2.5 mr-3;
+  }
+}
+
+.live-search__results {
+  @apply border-2 border-gray-200 rounded border-t-0 rounded-t-none transform -translate-y-0.5;
+}
+
+@tailwind components;
+@tailwind utilities;
