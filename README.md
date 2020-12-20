@@ -19,7 +19,7 @@ folder.
 
 - Navigate to the project directory
 - Install all dependencies: `yarn install`
-- Build the project files: `yarn build` or `yarn dev` in case we want to use a development version
+- Build the project files: `yarn build` (`yarn build-win` for windows) or `yarn dev` in case we want to use a development version
 - Navigate to the server directory: `cd server`
 - Install all server dependencies: `yarn install`
 - Start the server: `yarn start`
