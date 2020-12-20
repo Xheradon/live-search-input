@@ -25,7 +25,7 @@
   },
   "scripts": {
     "build": "export NODE_ENV=production && webpack --mode production",
-    "build-win": "set NODE_ENV=production && webpack --mode production",
+    "build-win": "set NODE_ENV=production&&webpack --mode production",
     "dev": "webpack --mode development",
     "dev-server": "webpack serve --mode development"
   },

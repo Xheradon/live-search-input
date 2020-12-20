@@ -7,7 +7,7 @@ done differently in a real app.
 
 ## Requirements
 
-- NodeJS ^v15.4
+- NodeJS ^14.15
 - Yarn or NPM (this guide wil be done taking yarn as default package manager)
 
 ## Express Server
